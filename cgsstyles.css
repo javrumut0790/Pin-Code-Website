@@ -1,0 +1,74 @@
+body {
+    background-color:#082b3a;
+}
+h1 {
+    color:#ffffff;
+    font-family:"Comic Sans MS";
+    text-align: center;
+}
+p {
+    color:#ffffff;
+    text-align: center;
+}
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+#button {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-group .button {
+    margin-top: 35pt;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+  }
+.container {
+    text-align: center;
+}
+.hidden {
+    visibility: hidden;
+    position: absolute
+}
+.button.hidden {
+    display: none;
+    position: absolute;
+}
+.displayed.button {
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    background-color: #082b3a;
+    font-family: "Comic Sans MS";
+    border-color: whitesmoke;
+    color: white;
+}
+#confirm {
+    text-align: center;
+    background-color: #082b3a;
+    color: white;
+    width: 150px;
+    height: 47px;
+    font-size: 25px;
+    border-color:whitesmoke
+}
+#answertext {
+    font-size: 23px;
+    font-family: "Comic Sans MS";
+}
+#unlocked {
+    display: block;
+    font-size: 60px;
+    color: limegreen;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
